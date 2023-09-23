@@ -61,7 +61,7 @@ function checkGuess(guess) {
     displayMessage(`Number is lower than the you entered`);
   } 
   else if (guess > randomNumber) {
-    displayMessage(`Number is High than the you entered`);
+    displayMessage(`Number is Higher than the you entered`);
   }
 }
 
